@@ -58,7 +58,7 @@
 						</div>
 						<div class="col-lg-3">
 							<div class="banner_map_img">
-								<img class="img-fluid" src="welcome/img/6.png" alt="">
+								<img class="img-fluid" src="welcome/img/6.PNG" alt="">
 							</div>
 						</div>
 					</div>
@@ -134,16 +134,16 @@
                 </div>
         		<div class="screenshot_inner owl-carousel">
         			<div class="item">
-        				<img src="welcome/img/feature/1.png" alt="">
+        				<img src="welcome/img/feature/1.PNG" alt="">
         			</div>
         			<div class="item">
-        				<img src="welcome/img/feature/3.png" alt="">
+        				<img src="welcome/img/feature/3.PNG" alt="">
         			</div>
         			<div class="item">
-        				<img src="welcome/img/feature/4.png" alt="">
+        				<img src="welcome/img/feature/4.PNG" alt="">
         			</div>
         			<div class="item">
-        				<img src="welcome/img/feature/5.png" alt="">
+        				<img src="welcome/img/feature/5.PNG" alt="">
         			</div>
         		</div>
         	</div>
