@@ -118,7 +118,7 @@
         				</div>
         			</div>
         			<div class="col-lg-6">
-        				<img class="img-fluid" width="300" height="700" src="welcome/img/6.png" alt="">
+        				<img class="img-fluid" width="300" height="700" src="welcome/img/6.PNG" alt="">
         			</div>
         		</div>
         	</div>
