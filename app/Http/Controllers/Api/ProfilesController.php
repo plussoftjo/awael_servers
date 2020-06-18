@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Profile;
+use App\Person;
 class ProfilesController extends Controller
 {
     public function get_profile(Request $request) {
@@ -24,5 +25,12 @@ class ProfilesController extends Controller
             get();
 
         return response()->json(['profiles' => $profiles]);
+    }
+
+    public function register_person(Request $request) {
+        $Person = Person::create([
+            'name' => $request->name,
+            'phone' => $request->phone
+        ]);
     }
 }

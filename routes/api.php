@@ -36,6 +36,16 @@ Route::post('/profiles/search','Api\ProfilesController@search');
 Route::post('order/store','Api\OrderController@store');
 Route::post('order/upload_image','Api\OrderController@upload_image');
 Route::post('message/send','Api\OrderController@send_message');
+
+
+
+/*
+|--------------------------------------------------------------------------
+| Persons 
+|--------------------------------------------------------------------------
+*/
+Route::post('person/store','Api\ProfilesController@register_person');
+
 /*
 |--------------------------------------------------------------------------
 | Authored Api 
