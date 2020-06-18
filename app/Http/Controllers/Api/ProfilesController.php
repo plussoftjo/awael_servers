@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Profile;
-use App\Person;
+use App\ion;
 class ProfilesController extends Controller
 {
     public function get_profile(Request $request) {
@@ -28,7 +28,7 @@ class ProfilesController extends Controller
     }
 
     public function register_person(Request $request) {
-        $Person = Person::create([
+        $ion = ion::create([
             'name' => $request->name,
             'phone' => $request->phone
         ]);
